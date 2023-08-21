@@ -9,7 +9,7 @@ pd.options.display.max_columns = 20
 
 # Lendo o arquivo .ndjson. Importante: o parâmetro lines=True é necessário para que o pandas consiga ler o arquivo.
 # Isso é específico para arquivos .ndjson
-jhonata= pd.read_json('zeeschuimer-export-instagram.com-2023-08-19T025500.ndjson', lines=True)
+jhonata= pd.read_json('zeeschuimer-export-instagram.com-2023-08-21T113210.ndjso', lines=True)
 
 
 # A variável que eu quero analisar é a 'data'. Vamos transformá-la em um dataframe.
